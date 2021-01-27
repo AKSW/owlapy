@@ -1,11 +1,11 @@
 import sys
 import weakref
-from weakref import WeakKeyDictionary
 from abc import ABCMeta, abstractmethod
 from typing import Union, overload, Final, Protocol
+from weakref import WeakKeyDictionary
 
-from owlapy.namespaces import Namespaces
 from owlapy import namespaces
+from owlapy.namespaces import Namespaces
 
 
 class HasIndex(Protocol):
