@@ -1,6 +1,6 @@
 import types
 from logging import warning
-from typing import Iterable, Type, cast, Optional
+from typing import Iterable, cast, Optional
 
 import owlready2
 
@@ -9,7 +9,6 @@ from owlapy.model import OWLClass, OWLClassExpression, OWLNamedIndividual
 from owlapy.owlready2 import OWLReasoner_Owlready2
 from owlapy.owlready2.base import OWLOntology_Owlready2, BaseReasoner
 from owlapy.owlready2.utils import ToOwlready2
-from owlapy.vocabulary import OWL_THING
 
 
 class OWLReasoner_Owlready2_TempClasses(OWLReasoner_Owlready2):
