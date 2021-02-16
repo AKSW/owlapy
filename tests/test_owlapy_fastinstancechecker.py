@@ -3,11 +3,12 @@ import unittest
 from owlapy import IRI
 from owlapy.fast_instance_checker import OWLReasoner_FastInstanceChecker
 from owlapy.model import OWLClass, OWLObjectProperty, OWLNamedIndividual, OWLObjectIntersectionOf, \
-    OWLObjectSomeValuesFrom, OWLThing, OWLTopObjectProperty
+    OWLObjectSomeValuesFrom, OWLThing
 from owlapy.owlready2 import OWLOntologyManager_Owlready2, OWLReasoner_Owlready2
 
 
 class Owlapy_FastInstanceChecker_Test(unittest.TestCase):
+    # noinspection DuplicatedCode
     def test_instances(self):
         NS = "http://example.com/father#"
         mgr = OWLOntologyManager_Owlready2()
