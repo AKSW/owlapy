@@ -1,0 +1,13 @@
+name: owlapy
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - sortedcontainers=2.3.0
+  - owlready2=0.29
+  # testing
+  - tox=3.23.0
+  - tox-conda=0.7.1
+  - pytest=6.2.2
+  # # building
+  - build=0.3.1.post1
