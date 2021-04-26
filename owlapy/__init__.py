@@ -2,7 +2,8 @@
 
 loosely based on OWLAPI"""
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
-from owlapy.base import HasIRI, IRI
-__all__ = 'HasIRI', 'IRI'
+from owlapy.model import HasIRI, IRI
+
+__all__ = 'IRI',
