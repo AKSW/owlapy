@@ -1,0 +1,23 @@
+name: Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 5
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: add conda to path
+      run: |
+        # $CONDA is an environment variable pointing to the root of the miniconda directory
+        echo "$CONDA/bin" >> $GITHUB_PATH
+    - name: Install tox
+      run: |
+        # workaround for github bug where conda-tox is broken after self-upgrade
+        conda install -c conda-forge --no-update-deps tox $(conda -V|tr ' ' '=')
+    - name: Test with tox
+      run: |
+        tox
