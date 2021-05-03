@@ -71,6 +71,10 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+# Sphinx Stanford theme
+docs/_static_gen/
+# Sphinx apidoc
+docs/source/
 
 # PyBuilder
 .pybuilder/
