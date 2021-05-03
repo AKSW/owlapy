@@ -9,5 +9,17 @@ dependencies:
   - tox=3.23.0
   - tox-conda=0.7.1
   - pytest=6.2.2
+  # testing
+  - tox=3.23.0
+  - tox-conda=0.7.1
+  - pytest=6.2.2
+  # docs
+  - sphinx=3.5.3
+  - sphinx_rtd_theme=0.5.1
+  - myst-parser=0.13.5
   # # building
   - build=0.3.1.post1
+  - pip:
+    # docs
+    - sphinxext-autox==0.0.2
+    - sphinx-theme==1.0
