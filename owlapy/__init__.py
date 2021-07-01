@@ -1,6 +1,12 @@
 """OWLAPY
 
-loosely based on OWLAPI"""
+loosely based on OWL API
 
-__version__ = '0.0.3'
+many help texts copied from OWL API [1]
+OWLAPI licence: LGPL and Apache
 
+[1] https://github.com/owlcs/owlapi
+"""
+
+
+__version__ = '0.0.4'
