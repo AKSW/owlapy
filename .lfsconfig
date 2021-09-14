@@ -1,0 +1,3 @@
+[lfs]
+	url = https://git-lfs.aksw.org/test/AKSW/owlapy
+	pushurl = ssh://git-lfs.aksw.org/test/AKSW/owlapy
