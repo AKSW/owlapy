@@ -9,7 +9,7 @@ OWLAPI licence: LGPL and Apache
 """
 
 
-__version__ = '0.0.5'
+__version__ = '0.0.6'
 
 # the import order must be fixed otherwise there are circular import errors
 import owlapy.model
