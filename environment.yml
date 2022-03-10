@@ -6,10 +6,8 @@ dependencies:
   - pandas=1.2.3
   - sortedcontainers=2.3.0
   - owlready2=0.34
-  # testing
-  - tox=3.23.0
-  - tox-conda=0.7.1
-  - pytest=6.2.2
+  - rdflib=6.0.2
+  - parsimonious=0.8.1
   # testing
   - tox=3.23.0
   - tox-conda=0.7.1
